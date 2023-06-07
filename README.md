@@ -1,3 +1,14 @@
 # ai_generated_flutter_code
 
-![junior-logo](images/junior-logo-with-bg.png)
+
+<p align="left">
+  <a href="https://junior.atomsbox.com">
+    <img src="images/junior-logo-with-bg.png" height="75" alt="atomsbox"/>
+  </a>
+</p>
+
+junior is an AI pair-programmer for Flutter developers. 
+**Learn more at [junior.atomsbox.com](https://junior.atomsbox.com)!**
+
+---
+![junior-logo]()
