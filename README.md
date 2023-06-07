@@ -12,7 +12,7 @@ junior is an AI pair-programmer for Flutter developers.
 
 ---
 
-junior offers multiple code generators powered by AI models (GPT 3.5 turbo and GPT4) and customized to deliver the best results for Flutter developers. Currently, there are:
+junior offers multiple code generators powered by AI models (GPT 3.5 turbo and GPT4) and customized to deliver the best results for Flutter developers. Currently, there are available:
 - The BLoC Generator
 - The Model Generator
 - The Flutter AI Full-Codebase
