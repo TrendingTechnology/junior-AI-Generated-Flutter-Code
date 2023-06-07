@@ -11,6 +11,7 @@ class Product extends Equatable {
   final String description;
   final double price;
   final String imageUrl;
+
   const Product({
     required this.id,
     required this.name,
@@ -18,6 +19,7 @@ class Product extends Equatable {
     required this.price,
     required this.imageUrl,
   });
+
   Product copyWith({
     String? id,
     String? name,
@@ -43,6 +45,7 @@ class Product extends Equatable {
       imageUrl: json['imageUrl'] ?? '',
     );
   }
+  
   Map<String, dynamic> toJson() {
     return {
       'id': id,
