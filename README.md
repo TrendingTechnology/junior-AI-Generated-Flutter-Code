@@ -12,8 +12,14 @@ junior is an AI pair-programmer for Flutter developers.
 
 ---
 
-junior offers multiple code generators powered by AI models (GPT 3.5 turbo and GPT4) and customized to deliver the best results for Flutter developers. 
+junior offers multiple code generators powered by AI models (GPT 3.5 turbo and GPT4) and customized to deliver the best results for Flutter developers. Currently, there are:
+- The BLoC Generator
+- The Model Generator
+- The Flutter AI Full-Codebase
 
+Coming soon:
+- Unit test generator
+- Widget test generator
 
 ![bloc-generator](images/bloc-generator.png)
 ## BLoC Generator
@@ -32,6 +38,6 @@ A few examples of the prompt and the output are in the [model_generator folder](
 ---
 
 ![flutter-agi](images/flutter-agi.png)
-## Flutter Codebase Generator
-The Flutter codebase generator (inspired to BabyAGI and smol-ai/developer) receives your input and create a Flutter codebase as an output. For example, you can ask the generator to "Create the shopping cart of an ecommerce app" or to "Connect a workout tracking app with database XYZ", the model will break down your request into actionable tasks and it will generate the code for you. 
+## Flutter AI Full-Codebase
+The Flutter AI Codebase (inspired to BabyAGI and smol-ai/developer) receives your input and create a Flutter codebase as an output. For example, you can ask the generator to "Create the shopping cart of an ecommerce app" or to "Connect a workout tracking app with database XYZ", the model will break down your request into actionable tasks and it will generate the code for you. 
 
