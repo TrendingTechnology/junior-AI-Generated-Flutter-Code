@@ -1,4 +1,5 @@
-Create a post model for a social media app
+// PROMPT: Create a post model for a social media app
+// Output from: https://junior.atomsbox.com/#/model-generator
 
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
@@ -9,12 +10,14 @@ class Post extends Equatable {
   final String title;
   final String body;
   final String imageUrl;
+
   const Post({
     required this.id,
     required this.title,
     required this.body,
     required this.imageUrl,
   });
+  
   Post copyWith({
     String? id,
     String? title,
